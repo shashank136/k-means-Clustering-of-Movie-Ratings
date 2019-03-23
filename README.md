@@ -17,11 +17,11 @@ You will also need to have software installed to run and execute an [iPython Not
 In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook finding_donors.ipynb
+ipython notebook k-means Clustering of Movie Ratings.ipynb
 ```  
 or
 ```bash
-jupyter notebook finding_donors.ipynb
+jupyter notebook k-means Clustering of Movie Ratings.ipynb
 ```
 
 This will open the iPython Notebook software and project file in your browser.
@@ -46,9 +46,9 @@ k-means is  one of  the simplest unsupervised  learning  algorithms  that  solve
 
 where,
 
- ‘||xi - vj||’ is the Euclidean distance between xi and vj.
- ‘ci’ is the number of data points in ith cluster. 
- ‘c’ is the number of cluster centers.
+- ‘||xi - vj||’ is the Euclidean distance between xi and vj.
+- ‘ci’ is the number of data points in ith cluster. 
+- ‘c’ is the number of cluster centers.
 
 ![cluster Image](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/cluster.png)
 
@@ -58,7 +58,7 @@ where,
 
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/silhouette.png)
 
-Silhouette score for data set with various number of clusters
+Silhouette score for data set with various number of clusters (i.e. how relatable a point is with it's cluster)
 
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/userplot.png)
 
