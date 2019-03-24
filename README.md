@@ -14,7 +14,7 @@ You will also need to have software installed to run and execute an [iPython Not
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook k-means Clustering of Movie Ratings.ipynb
