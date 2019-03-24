@@ -70,12 +70,12 @@ where,
 - ‘ci’ is the number of data points in ith cluster. 
 - ‘c’ is the number of cluster centers.
 
-In action:
+#### In action(https://www.naftaliharris.com/blog/visualizing-k-means-clustering/):
 
 ![gif](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/kmean.gif)
 
 
-##### Clusters of users who like romance and sci-fiction movies
+#### Clusters of users who like romance and sci-fiction movies
 
 ![cluster Image](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/cluster.png)
 
@@ -83,10 +83,10 @@ In action:
 - people who like scifi but not romance
 - people who like both scifi and romance
 
-##### Silhouette score representing similarity between a point and it's cluster
+#### Silhouette score representing similarity between a point and it's cluster
 
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/silhouette.png)
 
-##### Sunburn chart between most rated movies and users who rate movies the most for a cluster instance
+#### Sunburn chart between most rated movies and users who rate movies the most for a cluster instance
 
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/userplot.png)
