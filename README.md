@@ -72,7 +72,7 @@ where,
 
 #### In action(https://www.naftaliharris.com/blog/visualizing-k-means-clustering/):
 
-![gif](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/kmean.gif)
+<img src="https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/kmean.gif" width="350" height="350">
 
 
 #### Clusters of users who like romance and sci-fiction movies
