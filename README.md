@@ -40,7 +40,27 @@ The data we'll be using comes from the wonderful [MovieLens](https://movielens.o
 
 ### K mean clustering algorithm
 
-k-means is  one of  the simplest unsupervised  learning  algorithms  that  solve  the well  known clustering problem. The procedure follows a simple and  easy  way  to classify a given data set  through a certain number of  clusters (assume k clusters) fixed apriori. The  main  idea  is to define k centers, one for each cluster. These centers  should  be placed in a cunning  way  because of  different  location  causes different  result. So, the better  choice  is  to place them  as  much as possible  far away from each other. The  next  step is to take each point belonging  to a  given data set and associate it to the nearest center. When no point  is  pending,  the first step is completed and an early group age  is done. At this point we need to re-calculate k new centroids as barycenter of  the clusters resulting from the previous step. After we have these k new centroids, a new binding has to be done  between  the same data set points  and  the nearest new center. A loop has been generated. As a result of  this loop we  may  notice that the k centers change their location step by step until no more changes  are done or  in  other words centers do not move any more. Finally, this  algorithm  aims at  minimizing  an objective function know as squared error function given by:
+- k-means is  one of  the simplest unsupervised  learning  algorithms  that  solve  the well  known clustering problem. 
+
+- The procedure follows a simple and  easy  way  to classify a given data set  through a certain number of  clusters (assume k clusters) fixed apriori. 
+
+- The  main  idea  is to define k centers, one for each cluster. 
+
+- These centers  should  be placed in a cunning  way  because of  different  location  causes different  result. 
+
+- So, the better  choice  is  to place them  as  much as possible  far away from each other. 
+
+- The  next  step is to take each point belonging  to a  given data set and associate it to the nearest center. 
+
+- When no point  is  pending,  the first step is completed and an early group age  is done. 
+
+- At this point we need to re-calculate k new centroids as barycenter of  the clusters resulting from the previous step. 
+
+- After we have these k new centroids, a new binding has to be done  between  the same data set points  and  the nearest new center. 
+
+- A loop has been generated. As a result of  this loop we  may  notice that the k centers change their location step by step until no more changes  are done or  in  other words centers do not move any more. 
+
+- Finally, this  algorithm  aims at  minimizing  an objective function know as squared error function given by:
 
 ![png](https://sites.google.com/site/dataclusteringalgorithms/_/rsrc/1273047853039/k-means-clustering-algorithm/kmeans.JPG)
 
@@ -50,16 +70,23 @@ where,
 - ‘ci’ is the number of data points in ith cluster. 
 - ‘c’ is the number of cluster centers.
 
+In action:
+
+![gif](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/kmean.gif)
+
+
+##### Clusters of users who like romance and sci-fiction movies
+
 ![cluster Image](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/cluster.png)
 
 - people who like romance but not scifi
 - people who like scifi but not romance
 - people who like both scifi and romance
 
+##### Silhouette score representing similarity between a point and it's cluster
+
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/silhouette.png)
 
-Silhouette score for data set with various number of clusters (i.e. how relatable a point is with it's cluster)
+##### Sunburn chart between most rated movies and users who rate movies the most for a cluster instance
 
 ![png](https://github.com/shashank136/k-means-Clustering-of-Movie-Ratings/blob/master/image/userplot.png)
-
-Users' ratings for movies
